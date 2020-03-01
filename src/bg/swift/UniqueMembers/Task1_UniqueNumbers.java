@@ -15,7 +15,7 @@ public class Task1_UniqueNumbers {
         }
         int[] sorted = Arrays.stream(array).sorted().distinct().toArray();
         for (int element : sorted) {
-            System.out.println(element);
+            System.out.printf("%d ", element);
         }
 
 
